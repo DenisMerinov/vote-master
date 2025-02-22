@@ -1,0 +1,9 @@
+{
+  "name": "voting-workspace",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/voting-workspace/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project voting-workspace --web",
+  "targets": {}
+}
