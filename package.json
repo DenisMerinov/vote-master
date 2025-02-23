@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "backend:dev": "nx serve backend",
-    "frontend:dev": "nx serve frontend"
+    "frontend:dev": "nx serve frontend",
+    "frontend:build": "nx build frontend"
   },
   "private": true,
   "dependencies": {
