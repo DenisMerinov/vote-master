@@ -160,7 +160,5 @@ app.patch('/api/participants/:id/toggle-status', async (req, res) => {
 });
 
 app.listen(port, host, () => {
-  console.log(
-    `[ ready ] ${host}${port != 443 && port != 80 ? ':' + port : ''}`
-  );
+  console.log(`[ ready ] http://${host}:${port}`);
 });
